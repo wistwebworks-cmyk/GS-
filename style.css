@@ -86,15 +86,16 @@ body {
     box-shadow: 0 0 10px rgba(255, 255, 255, .2);
 }
 
-.wp .guest {
+.wp a {
     text-align: center;
     margin-top: 20px;
     color: #ffffff;
     cursor: pointer;
+    align: center;
 }
 
 
-.wp .guest:hover {
+.wp a:hover {
     text-decoration: underline;
 }
 
