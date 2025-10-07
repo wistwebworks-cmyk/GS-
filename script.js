@@ -2,17 +2,17 @@
   // Codes and usernames
   const codes = {
     
-  "gs_initA_Cnit" : "Nit", 
-  "gs_initA_lsd" : "Jimmy",
-  "gs_initA_minhuzz" : "Minhaj",
-  "gs_initA_mahdihh" : "Mahdi",
-  "gs_initPA_tasin" : "Tasin",
-  "gs_initA_printer" : "Pranto",
-  "gs_initA_araf" : "Araf",
-  "gs_initA_VCbota" : "Ahnaf",
-  "gs_initA_said" : "Said",
-  "gs_initA_fatin" : "Fatin",
-  "gs_initA_vodka" : "Abid",
+  "gs_initA_Cnit12" : "Nit",
+  "gs_initA_lsd46" : "Jimmy",
+  "gs_initA_minhuzz93" : "Minhaj",
+  "gs_initA_mahdihh02" : "Mahdi",
+  "gs_initPA_tasin56" : "Tasin",
+  "gs_initA_printer78" : "Pranto",
+  "gs_initA_araf909" : "Araf",
+  "gs_initA_VCbota09" : "Ahnaf",
+  "gs_initA_said094" : "Said",
+  "gs_initA_fatin033" : "Fatin",
+  "gs_initA_vodka356" : "Abid",
 
 
     
