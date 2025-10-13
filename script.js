@@ -30,7 +30,8 @@
       // Redirect to main.html with username in URL
       alert(`You are logged in as ${username}`);
         // Pass the username to the next page via URL
-        window.location.href = "fain.html?user=" + encodeURIComponent(username);
+        localStorage.setItem("username", username);
+      window.location.href = "fain.html";
     } else {
       message.style.color = "red";
       message.innerHTML = "Invalid Code";

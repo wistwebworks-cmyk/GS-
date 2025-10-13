@@ -21,7 +21,7 @@
         </div>
     </form>
     <button class="butt" id="reqButton" onclick="checkCode()">Request Access</button>
-    <a class="guest" href="fain.html" style="display: block; width: fit-content; margin: 0 auto;">Or, continue as a guest</a>
+    <a class="guest" href="#" onclick="localStorage.setItem('username','Guest');window.location.href='fain.html'; return false;" style="display: block; width: fit-content; margin: 0 auto;">Or, continue as a guest</a>
     <p id="message" style="display: block; width: fit-content; margin: 0 auto; font-size: small; margin-top: 10px;"></p>
 </div>
 </body>
