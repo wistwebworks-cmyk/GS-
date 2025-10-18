@@ -10,8 +10,8 @@
     <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
 </head>
 <body>
-    <header class="header">
-        <a href="" class="gs-logo">Logo</a>
+  <header class="header">
+    <a href="fain.html" class="gs-logo">Gyatt Society</a>
 
         <input type="checkbox" id="check">
 
@@ -22,47 +22,100 @@
 
         <nav class="navbar">
             <a href="profile.html" class="profile" style="--i:0;">Profile</a>
-            <a href="" class="dashboard" style="--i:1;">Dashboard</a>
-            <a href="" class="main-mem" style="--i:2;">Main Members</a>
-            <a href="" class="side-mem" style="--i:3;">Side Characters</a>
-            <a href="" class="achievements" style="--i:4;">Achievements</a>
-            <a href="" class="reel-dor" style="--i:5;">Reel D'or</a>
-            <a href="" class="chatbox" style="--i:6;">Chatbox</a>
-            <a href="" class="mission-li" style="--i:7;">Mission List</a>
+            <a href="#sec-charm" class="main-mem" style="--i:1;">Main Members</a>
+            <a href="#sec-chars" class="side-mem" style="--i:2;">Side Characters</a>
+            <a href="#achievements" class="achievements" style="--i:3;">Achievements</a>
+            <a href="#reel-dor" class="reel-dor" style="--i:4;">Reel D'or</a>
+            <a href="#chatbox" class="chatbox" style="--i:5;">Chatbox</a>
         </nav>
     </header>
 
     <!-- Joyboys Section -->
-    <div class="Profilecard">
-  <img id="person-img" src="">
-  <h2 id="person-name"></h2>
-  <div class="btn-group">
-    <button id="desc-btn"> Description</button>
-    <button id="prev-btn"><</button>
-    <button id="next-btn">></button>
-   
-  </div>
-  <p id="member-desc" class="hidden"></p>
-</div>
-
+    <section id="sec-charm">
+      <div class="Profilecard">
+        <h1>Main Characters</h1>
+        <img id="person-img" src="">
+        <h2 id="person-name"></h2>
+        <p id="member-desc" class="hidden"></p>
+        <div class="btn-group">
+          <button id="desc-btn"> Description</button>
+          <button id="prev-btn"><</button>
+          <button id="next-btn">></button>
+        </div>
+      </div>
+   </section>
 
 <!-- main chrecters section ends and side chrtrs section strts -->
   
+<section id="sec-chars">
+ <div class="SideProfilecard">
+   <h1 class="sch1">Side Characters</h1>
+   <img id="Sideperson-img" src="">
+   <h2 id="Sideperson-name"></h2>
+   <p id="Sidemember-desc" class="hidden"></p>
+   <div class="Sidebtn-group">
+     <button id="Sidedesc-btn"> Description</button>
+     <button id="Sideprev-btn"><</button>
+     <button id="Sidenext-btn">></button>
+   </div>
+ </div>
+</section>
 
-
-<div class="SideProfilecard">
-  <img id="Sideperson-img" src="">
-  <h2 id="Sideperson-name"></h2>
-  <div class="Sidebtn-group">
-    <button id="Sidedesc-btn"> Description</button>
-    <button id="Sideprev-btn"><</button>
-    <button id="Sidenext-btn">></button>
-   
+<section id="achievements">
+  <div class="achievementscard">
+    <h1 class="ach1">Achievements</h1>
+    
+    <ul class="ul-a">
+      <li><span style="color: yellow; text-decoration: underline;">Establishment:</span> Established in 2024.</li>
+      <li><span style="color: yellow; text-decoration: underline;">Debut:</span> Making debut as the first brainrot gang in MUBC.</li>
+      <li><span style="color: yellow; text-decoration: underline;">Influence:</span> influenced a lot of people and gained a handy of 30+ members in the first month.</li>
+      <li><span style="color: yellow; text-decoration: underline;">First Enemy:</span> Influences people to make a opposing gang named "The L Society".</li>
+      <li><span style="color: yellow; text-decoration: underline;">Challenged:</span> L Society challenges Gyatt Society to a tough war.</li>
+      <li><span style="color: yellow; text-decoration: underline;">Victory:</span>span Gyatt Society wins the war and gains respect in MUBC.</li>
+      <li><span style="color: yellow; text-decoration: underline;">Growth:</span> Grows to a massive 50+ members in 3 months.</li>
+      <li><span style="color: yellow; text-decoration: underline;">Commedy class:</span> Start of an engaging activity between members led by the great commander.</li>
+      <li><span style="color: yellow; text-decoration: underline;">Community:</span> Builds a strong community with regular events and activities.</li>
+      <li><span style="color: yellow; text-decoration: underline;">Recognition:</span> Recognized as one of the most influential gangs in MUBC.</li>
+      <li><span style="color: yellow; text-decoration: underline;">The Shadow Society:</span> Arrival of another opposing gang that works from the shadow led by The Shadow.</li>
+      <li><span style="color: yellow; text-decoration: underline;">Hands-together:</span> Shadow decides to collaborate with Gyatt Society.</li>
+      <li><span style="color: yellow; text-decoration: underline;">Victory again:</span> Yet another victory for Gyatt Society, solidifying their reputation.</li>
+    </ul>
   </div>
-  <p id="Sidemember-desc" class="hidden"></p>
-</div>
+</section>
+
+<section id="reel-dor">
+   <div class="reeldor">
+     <h1 class="reel1">Reel D'or</h1>
+     <ul class="ul-r">
+       <li><span style="color: yellow; text-decoration: underline;">Reel D'or, 2025:</span> First Reel D'or Awarded to Nir the Nit for his outsnading performance in reel sending.</li>
+     </ul>
+   </div>
+</section>
+
+<section id="chatbox">
+  <div class="cb">
+    <h1 class="cb1">Chatbox</h1>
+    <em><p>404 Not Available Yet</p>
+    <p>Coming Soon...</p></em> 
+    </div>
+  </div>
+</section>
 
 <script src="fain.js"></script>
+
+
+<audio id="bg.m" loop>
+  <source src="gsmt.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<script>
+  document.addEventListener("click", function()
+  {
+    document.getElementById("bg.m").play();
+  });
+</script>
+
 
 </body>
 </html>

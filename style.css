@@ -155,3 +155,74 @@ body {
 .wp .butt:active {
     transform: scale(.98);
 }
+
+/* Responsive Design for Login Page */
+
+/* Tablet Styles */
+@media (max-width: 768px) {
+    .wp {
+        width: 90%;
+        max-width: 420px;
+        padding: 20px 30px;
+    }
+
+    .wp h1 {
+        font-size: 28px;
+    }
+
+    .wp .desc {
+        font-size: 13px;
+    }
+
+    .uc input {
+        font-size: 15px;
+        padding: 15px 40px 15px 15px;
+    }
+
+    .wp .butt {
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .wp a {
+        font-size: 14px;
+    }
+
+    #message {
+        font-size: 12px;
+    }
+}
+
+/* Phone Styles */
+@media (max-width: 480px) {
+    .wp {
+        width: 95%;
+        padding: 15px 20px;
+    }
+
+    .wp h1 {
+        font-size: 24px;
+    }
+
+    .wp .desc {
+        font-size: 12px;
+    }
+
+    .uc input {
+        font-size: 14px;
+        padding: 12px 35px 12px 12px;
+    }
+
+    .wp .butt {
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .wp a {
+        font-size: 13px;
+    }
+
+    #message {
+        font-size: 11px;
+    }
+}
