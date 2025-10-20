@@ -81,7 +81,10 @@ Like bro, if you just say the word “football” in front of him, he will insta
     {
         name: "Fatin the fat",
         img: "fatin.jpg",
-        desc:``
+        desc:`The mental patients from Pabna and fatin has same traits but only difference is that fatin is in the Gyatt Society.
+         Bro's a wannabe cool guy who is head over heels for a gurl who has a bf.
+         He used to be bullied by everyone so our great commander took him under his wings and let him live a happy life.
+          So that's pretty much about fatin`
     }
         
                
@@ -159,7 +162,9 @@ Bro says all this nonsense without any logic. Though he is not an official membe
        
         name: "The Diddy Dehan",
         img: "dehan.png",
-        desc:``
+        desc:`Looks like its the diddys turn . You may think that we call him diddy just for fun but unfortunately you are wrong its related to a real life incident lets talk about it in the end.
+Now lets take a look at some facts about this creature like he is a top gambler who got his another nickname notcoin because he lost all his income from the notcoin airdrop by doing gambling .
+So , lets comeback to from where he got his diddy name so one day KNOCK!!! KNOCK!!! whos there? Its FBIIIIIII!!!!! .`
     },
    
         
